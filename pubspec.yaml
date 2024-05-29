@@ -1,0 +1,31 @@
+name: ledflutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial: ^0.3.2
+  flutter_colorpicker: ^1.1.0
+  flutter_inner_shadow: ^0.0.1
+  flutter_neumorphic: ^3.2.0
+  flutter_neumorphic_plus: ^3.3.0
+  interactive_slider: ^0.2.2
+  permission_handler: ^11.3.1
+  simple_shadow: ^0.3.1
+  starsview: ^0.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
